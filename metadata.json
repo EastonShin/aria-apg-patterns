@@ -1,0 +1,9 @@
+{
+  "version": "1.0.0",
+  "organization": "Easton Shin",
+  "date": "February 2026",
+  "abstract": "ARIA patterns reference based on W3C WAI-ARIA Authoring Practices Guide",
+  "references": [
+    "https://www.w3.org/WAI/ARIA/apg/patterns/"
+  ]
+}
