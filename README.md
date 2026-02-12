@@ -32,7 +32,7 @@ curl -o ~/.claude/commands/aria-apg-patterns.md \
 
 Ask Claude directly:
 
-```
+```text
 "Create an accessible tabs component following ARIA patterns"
 "How do I implement keyboard navigation for a combobox?"
 "What ARIA attributes do I need for a modal dialog?"
@@ -42,12 +42,12 @@ Ask Claude directly:
 
 ### 26 ARIA Patterns
 
-| Category | Patterns |
-|----------|----------|
-| **Navigation** | Breadcrumb, Link, Menu, Menubar, Tabs, Tree View |
-| **Input** | Button, Checkbox, Combobox, Listbox, Radio Group, Slider, Spinbutton, Switch |
-| **Feedback** | Alert, Alert Dialog, Dialog, Meter, Tooltip |
-| **Layout** | Accordion, Carousel, Disclosure, Feed, Grid, Table |
+| Category       | Patterns                                                                      |
+| -------------- | ----------------------------------------------------------------------------- |
+| **Navigation** | Breadcrumb, Link, Menu, Menubar, Tabs, Tree View                              |
+| **Input**      | Button, Checkbox, Combobox, Listbox, Radio Group, Slider, Spinbutton, Switch  |
+| **Feedback**   | Alert, Alert Dialog, Dialog, Meter, Tooltip                                   |
+| **Layout**     | Accordion, Carousel, Disclosure, Feed, Grid, Table                            |
 
 ### Each Pattern Contains
 
@@ -81,29 +81,31 @@ When you ask Claude to create an accessible dialog:
 ```
 
 With proper:
+
 - Focus trap on open/close
 - `Escape` key to close
 - Focus return to trigger element
 
 ## Why Use This Skill?
 
-| Without | With aria-apg-patterns |
-|---------|----------------------|
-| Generic ARIA attributes | W3C-compliant patterns |
-| Missing keyboard support | Complete key mappings |
-| Inconsistent implementation | Standardized approach |
-| Manual research needed | Instant reference |
+| Without                     | With aria-apg-patterns   |
+| --------------------------- | ------------------------ |
+| Generic ARIA attributes     | W3C-compliant patterns   |
+| Missing keyboard support    | Complete key mappings    |
+| Inconsistent implementation | Standardized approach    |
+| Manual research needed      | Instant reference        |
 
-## Comparison with Other Tools
+## Comparison with Other Skills
 
-| Feature | aria-apg-patterns | accessibility-auditor |
-|---------|------------------|----------------------|
-| **Purpose** | Implementation guide | Code audit/fix |
-| **When to use** | Building components | Reviewing existing code |
-| **Depth** | 26 patterns in detail | 8 common issues |
-| **Keyboard specs** | Complete | Overview only |
+| Feature | aria-apg-patterns | [web-interface-guidelines](https://github.com/vercel-labs/web-interface-guidelines) |
+| --- | --- | --- |
+| **Focus** | ARIA accessibility patterns | General UI/UX best practices |
+| **Scope** | 26 component patterns in depth | Broad coverage (a11y, animation, forms) |
+| **Keyboard specs** | Complete key mappings per pattern | General guidelines |
+| **Code examples** | HTML/ARIA snippets for each pattern | Conceptual rules |
+| **Use case** | Building accessible components | Code review & quality checks |
 
-**Recommendation**: Use both! This skill for building, accessibility-auditor for reviewing.
+**Recommendation**: Use both for comprehensive coverage.
 
 ## Source
 
