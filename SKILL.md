@@ -1,3 +1,8 @@
+---
+name: aria-apg-patterns
+description: Accessibility patterns reference based on W3C WAI-ARIA Authoring Practices Guide for implementing accessible web UI components.
+---
+
 # ARIA APG Patterns
 
 > Accessibility patterns reference based on W3C WAI-ARIA Authoring Practices Guide

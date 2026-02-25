@@ -10,7 +10,13 @@ A comprehensive ARIA pattern reference for building accessible web components. T
 
 ## Installation
 
-### Project-level (recommended)
+### Via Skills CLI (recommended)
+
+```bash
+npx skills add EastonShin/aria-apg-patterns
+```
+
+### Project-level (manual)
 
 ```bash
 # Add to current project
